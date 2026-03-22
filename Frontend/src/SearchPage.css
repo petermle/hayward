@@ -1,0 +1,99 @@
+.search-page {
+	color: #000000;
+	padding: 30px 120px;
+}
+
+/* search */
+.search-bar {
+	width: 400px;
+	padding: 12px 18px;
+	border-radius: 25px;
+	background: #f2f2f2;
+	font-size: 16px;
+	color: black;
+	margin-bottom: 20px;
+}
+
+.search-bar::placeholder {
+	color: #000000;
+}
+
+/* results text */
+.results-count {
+	
+	margin: 20px 0;
+	font-size: 22px;
+}
+
+/* list */
+.results {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+}
+
+/* card */
+.card {
+	color: #000000;
+	display: flex;
+	align-items: center;
+	background: #f5f5f5;
+	padding: 25px 30px;
+	border-radius: 6px;
+	transition: 0.2s ease;
+}
+
+.card:hover {
+	background: #ededed;
+}
+
+/* left */
+.rating-section {
+	color: #000000;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100px;
+}
+
+.quality {
+	font-size: 11px;
+	font-weight: bold;
+	margin-bottom: 6px;
+}
+
+.rating-box {
+	width: 60px;
+	height: 60px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-weight: bold;
+	font-size: 22px;
+	border-radius: 4px;
+}
+
+.ratings {
+	font-size: 12px;
+	margin-top: 6px;
+	color: #000000;
+}
+
+/* colors */
+.low { background: #f28b82; }
+.medium { background: #ffd966; }
+.high { background: #81c995; }
+
+/* center */
+.school-name {
+	flex: 1;
+	font-size: 20px;
+	font-weight: bold;
+	margin-left: 30px;
+}
+
+/* right */
+.location {
+	font-size: 14px;
+	color: #555;
+}
