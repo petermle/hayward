@@ -1,5 +1,4 @@
 import requests
-import base64
 import supabase
 from datetime import datetime, timedelta, timezone
 
