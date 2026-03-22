@@ -1,5 +1,5 @@
 """
-app.py — ProfessorMatch  Streamlit Frontend
+app.py — ProfessorMatch  Streamlit Frontend 
 ============================================
 
 Hackathon-ready UI that wraps professor_recommendation_engine.py.
